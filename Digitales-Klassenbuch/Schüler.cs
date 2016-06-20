@@ -13,6 +13,9 @@ namespace Digitales_Klassenbuch
         private DateTime geburtsdatum;
         private bool attestpflicht;
 
+
+        #region Eigenschaften
+
         public string Vorname
         {
             get { return vorname; }
@@ -28,6 +31,19 @@ namespace Digitales_Klassenbuch
             get { return geburtsdatum; }
         }
 
+        #endregion
+
+        #region Methoden
+
+
+
+        #endregion
+
+        #region Konstruktoren
+
+
+
+        #endregion
 
 
     }
